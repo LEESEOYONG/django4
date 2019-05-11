@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+<!DOCTYPE html>: 해당 문서가 HTML5를 사용하는것을 암시 
+<html>: HTML문서는 <html>태그 사이에 작성되어야함
+head:해당문서에 대한 설명이 들어있는 공간
+CSS,Javascript 파일을 추가하거나 코드를 넣을수 있음
+ -->
+	<meta charset="UTF-8">
+	<title>처음만드는 웹페이지</title>
+</head>
+<body>
+<!-- 
+body:사용자에게 보여지는 내용이 들어있는 공간
+<p>태그:한문단 한문단 표현을할수 있는 태그 (텍스트 표시)
+HTML에서는 여러줄의 줄바꿈,여러개의 공백을 하나의 공백으로 인식함
+<br> : 줄바꿈 태그 줄바꿈기능만해서 종료태그가 없다
+태그는 대소문자의 기준이 없다
+하나의 요소 안에 다른요소가 사용가능
+공백은 하나로 취급한다. pre는 제외
+요소간에 교차는 안된다
+ex)    <em> <strong> <em> <strong>
+없는 태그로 해석해버린다.
+
+<a> 는 링크를 클릭해서 넘어가게해준다
+<a href ="http://www.naver.com">W3컨소시엄</a>
+  속성이름      속성값
+  {    속성(attribute  }
+ -->
+	<p >파이썬 기반의 <br><br> <b>웹서버</b> 수업의 필수과정</p>
+	<b>해당글씨를 굵게</b>
+	<hr/><!-- 수평선을 만들어준다 horizontal line -->
+	<i>해당영역의 글씨를 기울여져서 표현</i>
+	<h1>헤더의 약자로 h를 사용함.</h1>
+	<h2>h1부터 h6까지 태그가 존재함</h2>
+	<h3>6으로 갈수록 글씨가 작아짐</h3>
+	<h4>기본적으로 굵은 글씨가 처리가 되어있음</h4>
+<pre>
+pre 태그는       여러줄의 줄바꿈과
+
+여러개의 공백을    인식함.
+</pre>
+<ul style="list-style-type: square;">
+	<li>ul태그는 순서없는 리스트 생성 태그</li>
+	<li>항목을 추가하려면 li 태그를 넣으면됨 </li>
+	<li><b>항목안에는 이미지,링크,동영상 등 다른태그 입력가능</b></li>
+</ul>
+
+<ol type="I">
+	<li><h1>ol태그는 순서있는 리스트 생성 태그</h1>
+	<li>번호 스타일을 바꾸려면 type속성에 값을 설정하면됨</li>
+</ol>
+
+<a href="http://www.naver.com">네이버로 가기 반드시 http:// 써줘야한다 </a>
+<a href="http://www.naver.com" target="_blank" download><br>네이버로 가기 반드시 새탭생성 </a>
+<img src="https://s.pstatic.net/static/www/mobile/edit/2019/0412/mobile_074711204383.jpg" width="50%" height="50%">
+<a href="http://naver.com">
+<img src="a1.jpg" width="300" height="200" border="10">
+</a>
+
+<table border="1" width="50%" height="60%">
+	<caption> 표에대한설명</caption>
+	<tr>
+		<td rowspan="2">1행 1열</td>
+		<th colspan="2">1행 2열</th>
+	</tr>
+
+	<tr>
+		<td>2행 1열</td>
+		<th><a href="http://google.com"> 구글로 바로가기!!</a></th>
+	</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
